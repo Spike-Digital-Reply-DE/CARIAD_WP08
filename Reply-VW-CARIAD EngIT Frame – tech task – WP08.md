@@ -104,7 +104,7 @@ These compliance methods ensure that the system remains secure over time, even a
 
 
 
-![System Architecture](/home/rewq/.config/Typora/typora-user-images/image-20240920100427982.png)
+![System Architecture](./Images/image-20240920100427982.png)
 
 ### 1.1 Components and Interactions 
 
@@ -158,7 +158,7 @@ In preparartion for the STRIDE-LM Threat Analysis data flow diagrams (DFD) are d
 
 DFD for STRIDE-LM are created using the following six elements. 
 
-![Threat_Model_key.drawio](/home/rewq/Documents/Reply/Projects/VW/2024_09_Tender/Threat_Model/Threat_Model_key.drawio.png)
+![Threat_Model_key.drawio](./Images/Threat_Model_key.drawio.png)
 
 The first element, an **external entity**, represents any user, system, or organization outside the application that interacts with it. For instance, an external entity could be a user logging into a website or a third-party service exchanging data with the system. In the context of STRIDE-LM, external entities are critical points for identifying threats such as spoofing, where an attacker could impersonate a legitimate user or system. Additionally, they raise concerns about repudiation, where users might deny their actions within the system, leading to challenges in accountability.
 
@@ -174,17 +174,17 @@ Finally, the **trust boundary** is a conceptual line that separates different le
 
 The figure below shows the DFD at context level. The actor or user interacts with two processes via HTTP.
 
-![Threat_Model_VW_hld](/home/rewq/Documents/Reply/Projects/VW/2024_09_Tender/Threat_Model/Threat_Model_VW_hld.png)
+![Threat_Model_VW_hld](./Images/Threat_Model_VW_hld.png)
 
 The figure below shows a DFD at level 1.
 
-![Threat_Model_VW_L01](/home/rewq/Documents/Reply/Projects/VW/2024_09_Tender/Threat_Model/Threat_Model_VW_L01.png)
+![Threat_Model_VW_L01](./Images/Threat_Model_VW_L01.png)
 
 
 
 The figure below shows a DFD the multi process P02 drilled down.
 
-![Threat_Model_VW_P2_L01](/home/rewq/Documents/Reply/Projects/VW/2024_09_Tender/Threat_Model/Threat_Model_VW_P2_L01.png)
+![Threat_Model_VW_P2_L01](./Images/Threat_Model_VW_P2_L01.png)
 
 
 
